@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.json
+*.tsv
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.pkl
+*.bin
+
+# Embeddings (too large)
+embeddings/
+*.word2vec
+*.glove*
+GoogleNews-vectors*
+
+# Tokenizer models
+tokenizers/
+*.model
+
+# Logs
+logs/
+wandb/
