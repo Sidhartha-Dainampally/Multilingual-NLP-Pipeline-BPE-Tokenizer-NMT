@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="docs/images/pipeline_overview.jpg" alt="Multilingual NLP Pipeline" width="800"/>
-</p>
 
 <h1 align="center">Multilingual NLP Pipeline: BPE Tokenizer & Neural Machine Translation</h1>
+
 
 <p align="center">
   <strong>From text classification (20+ models across 4 feature types) → custom BPE tokenizer (435× speedup) → multilingual Transformer NMT (English→Hindi/Bengali)</strong>
@@ -17,6 +15,9 @@
   <img src="https://img.shields.io/badge/NMT-Transformer-purple" alt="NMT"/>
 </p>
 
+<p align="center">
+  <img src="docs/images/pipeline_overview.jpg" alt="Multilingual NLP Pipeline" width="800"/>
+</p>
 ---
 
 > **The Story:** This project follows the natural progression of NLP: (1) **understand text** by benchmarking 20+ classification models across classical ML and deep learning, (2) **tokenize text** by building a production-grade BPE tokenizer from scratch with algorithmic optimizations, and (3) **generate text** in new languages using a Transformer encoder-decoder for low-resource English→Hindi/Bengali translation.
